@@ -1,0 +1,21 @@
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: $pinkTheme;
+
+  .left {
+    align-items: center;
+    padding: $paddingSize;
+    margin-left: $paddingSize;
+  }
+  button {
+    border: 3px solid $myNavBackColor;
+    border-radius: 10px;
+    padding: $paddingSize;
+    margin-top: 10px;
+  }
+  img {
+    width: 30%;
+  }
+}

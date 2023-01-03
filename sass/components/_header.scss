@@ -1,0 +1,30 @@
+header {
+  background-color: $myNavBackColor;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: 80px;
+    border: $border;
+    border-radius: 20%;
+    margin: $paddingSize;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    li {
+      padding: 10px;
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        font-size: 1.2rem;
+      }
+      &:hover {
+        background-color: $pinkTheme;
+        border-radius: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@mixin box($backColor, $fontColor, $size) {
+  width: 25%;
+  background-color: $backColor;
+  height: 200px;
+  border: $border;
+  margin: 5px;
+  padding: $paddingSize;
+  border-radius: 10px;
+}
+
+.cards {
+  .card1 {
+    @include box(rgba(152, 15, 15, 0.813), white, 1.2rem);
+  }
+  .card2 {
+    @include box(cadetblue, brown, 2rem);
+  }
+  .card3 {
+    @include box(green, white, 1.5rem);
+  }
+  .card4 {
+    @include box(rgb(232, 69, 19), blue, 1rem);
+  }
+}

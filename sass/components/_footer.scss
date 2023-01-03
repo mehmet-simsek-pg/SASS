@@ -1,0 +1,23 @@
+$mode: 2;
+
+$colors: #990000, #55004e, #0fa8a1, #121456, #64c217;
+
+footer {
+  p {
+    @if $mode==1 {
+      background-color: crimson;
+    } @else if $mode==2 {
+      background-color: pink;
+    } @else {
+      background-color: goldenrod;
+    }
+  }
+}
+
+.socialBoxes {
+  @for $index from 1 to length($colors) {
+    .social#{$index} {
+      background-color: nth($colors, $index);
+    }
+  }
+}

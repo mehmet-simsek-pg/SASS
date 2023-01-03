@@ -1,0 +1,143 @@
+.cards .card1 {
+  width: 25%;
+  background-color: rgba(152, 15, 15, 0.813);
+  height: 200px;
+  border: 2px solid gray;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.cards .card2 {
+  width: 25%;
+  background-color: cadetblue;
+  height: 200px;
+  border: 2px solid gray;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.cards .card3 {
+  width: 25%;
+  background-color: green;
+  height: 200px;
+  border: 2px solid gray;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.cards .card4 {
+  width: 25%;
+  background-color: rgb(232, 69, 19);
+  height: 200px;
+  border: 2px solid gray;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: #cc6699;
+}
+.banner .left {
+  align-items: center;
+  padding: 10px;
+  margin-left: 10px;
+}
+.banner button {
+  border: 3px solid rgba(12, 140, 175, 0.645);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.banner img {
+  width: 30%;
+}
+
+header {
+  background-color: rgba(12, 140, 175, 0.645);
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 80px;
+  border: 2px solid gray;
+  border-radius: 20%;
+  margin: 10px;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+}
+header ul li {
+  padding: 10px;
+}
+header ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+header ul li:hover {
+  background-color: #cc6699;
+  border-radius: 10px;
+}
+
+.articles {
+  display: flex;
+}
+.articles .article1, .articles .article2 {
+  width: 50%;
+  padding: 10px;
+  height: 200px;
+  background-color: cyan;
+  border: 2px solid gray;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.articles .article2 {
+  background-color: orange;
+}
+
+footer p {
+  background-color: pink;
+}
+
+.socialBoxes .social1 {
+  background-color: #990000;
+}
+.socialBoxes .social2 {
+  background-color: #55004e;
+}
+.socialBoxes .social3 {
+  background-color: #0fa8a1;
+}
+.socialBoxes .social4 {
+  background-color: #121456;
+}
+
+.articles {
+  display: flex;
+}
+.articles .article1, .articles .article2 {
+  width: 50%;
+  padding: 10px;
+  height: 200px;
+  background-color: cyan;
+  border: 2px solid gray;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.articles .article2 {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */
